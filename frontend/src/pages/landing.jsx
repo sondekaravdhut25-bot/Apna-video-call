@@ -9,8 +9,12 @@ export default function landing(){
                     <h2>Apna Video Call</h2>
                 </div>
                 <div className="navList"> 
-                    <p>Join as Guest</p>
-                    <p>Register</p>
+                    <p onClick={() => {
+                        router("/aljk23")
+                    }}>Join as Guest</p>
+                    <p onClick={() => {
+                        router("/auth")
+                    }}>Register</p>
                     <div role="button">Login</div>
                 </div>
             </nav>
